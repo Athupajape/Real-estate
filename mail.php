@@ -16,7 +16,7 @@ fclose($myfile);
 // https://github.com/sendgrid/sendgrid-php/releases
 $emails= (string) $email;
 $email = new \SendGrid\Mail\Mail(); 
-$email->setFrom("saurabh.katkar103@gmail.com", "Example User");
+$email->setFrom("amp.paranjape2@gmail.com", "Example User");
 $email->setSubject("Sending with SendGrid is Fun");
 $email->addTo($emails, "Example User");
 $email->addContent(
